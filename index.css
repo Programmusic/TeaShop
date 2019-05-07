@@ -1,0 +1,159 @@
+body {
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9px;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  background-color: black;
+  color: white;
+  width:100%;
+  height: 69px:
+  margin:0;
+  display: inline-flex;
+  z-index: 3;
+}
+#logo {
+  max-height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.select {
+  color: white;
+}
+
+ul {
+display: flex;
+padding-right: 40px;
+width:100%;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+
+li {
+display:inline-flex;
+margin: 10px;
+}
+.wrapper {
+  position: relative;
+  top: 69px;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content:center;
+  margin:auto;
+}
+
+
+
+.strap {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  margin: 10px;
+  height:100px;
+}
+
+.strappy {
+background-color: black;
+text-align: center;
+color: white;
+flex-shrink: 1;
+}
+
+#mission {
+  flex-shrink: 1;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  height:700px;
+  display:flex;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 1200px
+
+  }
+
+
+  #hand {
+    flex-shrink: 1;
+  }
+
+h4 {
+}
+.rows {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+ }
+
+.tea {
+  max-width:1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  align-items: center;
+  margin:auto;
+}
+
+.t {
+  text-align: center;
+}
+
+.timg {
+max-height: 200px;
+max-width: 300px;
+margin:10px;
+}
+
+#loocats {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(./images/locbackground.jpg);
+  background-size:cover;
+  max-width: 1000px;
+  min-height:500px;
+  align-content: center;
+  justify-content: space-around;
+  margin:auto;
+  margin-top:100px;
+  margin-bottom: 50px;
+
+}
+.loc {
+  display: inline-flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+  height: 300px;
+  width: 300px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  text-align: center;
+
+}
+
+/* Footer styling */
+.footer {
+  position: relative;
+  top:69;
+  clear: both;
+  text-align: center;
+  margin-top:50px;
+}
+
+#copy {
+  text-align: left;
+}
